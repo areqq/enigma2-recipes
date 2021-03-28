@@ -11,4 +11,5 @@ Put into openvuplus_3.0/meta-openvuplus/recipes-extended
 cd openvuplus_3.0/build/vuduo2
 . ./bitbake.env
 bitbake zerotier
+bitbake -v n2n -c cleanall
 ```
